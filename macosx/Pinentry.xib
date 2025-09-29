@@ -28,10 +28,10 @@
             <windowStyleMask key="styleMask" titled="YES"/>
             <windowCollectionBehavior key="collectionBehavior" canJoinAllSpaces="YES" transient="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="877" y="782" width="545" height="259"/>
+            <rect key="contentRect" x="877" y="782" width="459" height="226"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1710" height="1068"/>
             <view key="contentView" id="812">
-                <rect key="frame" x="0.0" y="0.0" width="459" height="253"/>
+                <rect key="frame" x="0.0" y="0.0" width="459" height="226"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="819" userLabel="Passphrase" customClass="ShortcutHandlingSecureTextField">
@@ -150,9 +150,8 @@
                         </connections>
                     </textField>
                     <textField verticalHuggingPriority="800" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="800" preferredMaxLayoutWidth="419" translatesAutoresizingMaskIntoConstraints="NO" id="820" userLabel="Description">
-                        <rect key="frame" x="18" y="190" width="423" height="43"/>
+                        <rect key="frame" x="18" y="190" width="423" height="16"/>
                         <constraints>
-                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="43" id="2of-pb-1si"/>
                             <constraint firstAttribute="height" relation="lessThanOrEqual" constant="500" id="72r-be-Lw9"/>
                             <constraint firstAttribute="width" constant="419" id="8tk-b7-MUQ"/>
                         </constraints>
@@ -472,7 +471,7 @@ IA
                 <outlet property="delegate" destination="-2" id="893"/>
                 <outlet property="initialFirstResponder" destination="819" id="830"/>
             </connections>
-            <point key="canvasLocation" x="171" y="-24"/>
+            <point key="canvasLocation" x="170.5" y="-24"/>
         </window>
         <customFormatter id="BRc-lA-8W3" customClass="PassphraseLengthFormatter"/>
     </objects>
